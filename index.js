@@ -8,7 +8,7 @@ var highscore = [{
 }]
 
 var userName = readlineSync.question("Input your name please_____");
-console.log("Welcome " + userName + "! lets check how much you know about football");
+console.log("Welcome " + userName + "! lets check how much you know about football\nonly used a,b,c,d for answering...............");
 
 function game(question, answer) {
   var userAnswer = readlineSync.question(question);
@@ -22,35 +22,35 @@ function game(question, answer) {
   console.log("Score = " + score)
 }
 var questions = [{
-  question: "Who is the winner of 2021 Spanish league? ",
-  answer: "Real Madrid"
+  question: "Who is the winner of 2021 Spanish league?\n(a) Real Madrid \n(b) Manchester United \n(c) Barcelona \n(d) Liverpool\n",
+  answer: "a"
 }, {
-  question: "Who is the G.O.A.T of football in modern era? ",
-  answer: "Cristiano Ronaldo"
+  question: "Who is the G.O.A.T of football in modern era? \n(a) Messi\n(b) C. Ronaldo \n(c) Neymar\n(d) Mbappe\n",
+  answer: "b"
 }, {
-  question: "Who is the winner of 2021 Italian league? ",
-  answer: "Inter MIlan"
+  question: "Who is the winner of 2021 Italian league? \n(a) AC Milan\n(b) Juventus\n(c) Napoli\n(d) Inter MIlan\n",
+  answer: "d"
 }, {
-  question: "Who is the Captain of India football team? ",
-  answer: "Sunil Chhetri"
+  question: "Who is the Captain of India football team? \n(a) Gurpreet Singh\n(b) Sandesh Jhingan\n(c) Udanta Singh\n(d) Sunil Chhetri",
+  answer: "d"
 }, {
-  question: "Who is the 2021 Champions league winner? ",
-  answer: "Real Madrid"
+  question: "Who is the 2021 Champions league winner? \n(a) Barcelona\n(b) Liverpool\n(c) Real Madrid\n(d) PSG\n",
+  answer: "c"
 }, {
-  question: "Who is the 2021 Ballon d'Or winner? ",
-  answer: "Messi"
+  question: "Who is the 2021 Ballon d'Or winner? \n(a) Messi\n(b) Modric\n(c) C.Ronaldo\n(d) Lewandowski\n",
+  answer: "a"
 }, {
-  question: "Who is the King of football? ",
-  answer: "Pele"
+  question: "Who is the King of football? \n(a) Maradona\n(b) Pele\n(c) Messi\n(d) Zidane\n",
+  answer: "b"
 }, {
-  question: "Who is the winner of 2021 English premier league? ",
-  answer: "Manchester City"
+  question: "Who is the winner of 2021 English premier league? \n(a) Manchester United\n(b) Liverpool\n(c) Arsenal\n(d) Manchester City\n",
+  answer: "d"
 }, {
-  question: "Where will be the next world cup held? ",
-  answer: "Qatar"
+  question: "Where will be the next world cup held? \n(a) Brazil\n(b) France\n(c) Qatar\n(d) Russia\n",
+  answer: "c"
 }, {
-  question: "Which country won the 2018 Fifa World Cup? ",
-  answer: "France"
+  question: "Which country won the 2018 Fifa World Cup? \n(a) Brazil\n(b) France\n(c) Croatia\n(d) France\n",
+  answer: "d"
 }]
 for (i = 0; i < questions.length; i++) {
   var currentquestion = questions[i];
